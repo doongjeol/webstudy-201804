@@ -82,6 +82,24 @@
 				margin-left: -250px;
 				margin-top:-125px
 			}
+			.container2{
+				margin-top : 50px;
+				margin-left : 50px;
+			}
+			.top_bar{
+				background : maroon;
+				
+				position: fixed;
+				left: 0; top: 95%; right: 0;
+				height: 50px;
+			}
+			.left_bar{
+				background : navy;
+				
+				position : fixed;
+				left: 95%; top: 0; bottom: 0;
+				width: 50px;
+			}
 		</style>
 	</head>
 	<body>
@@ -129,6 +147,12 @@
 		<h1>예제 6) 고정 위치를 사용해 바 생성</h1>
 		<div class="top_bar"></div>
 		<div class="left_bar"></div>
+		<div class="container2"></div>
+			<p>위하여, 불러 때에, 이상, 그들의 피는 힘있다.</p>
+			<p>동산에는 미묘한 품에 끓는 끓는다. 위하여, 트고, 할지니,</p>
+			<p>아니더면, 가는 인생에 원질이 이상 장식하는 사막이다.</p>
+			<p>구하기 청춘은 커다란 군영과 있는가? 간에 청춘의 위하여서, 소금이라 힘있다.</p>
+			
 		
 	</body>
 </html>
