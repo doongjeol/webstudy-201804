@@ -90,15 +90,21 @@
 				background : maroon;
 				
 				position: fixed;
-				left: 0; top: 95%; right: 0;
+				left: 0; top: 98%; right: 0;
 				height: 50px;
 			}
 			.left_bar{
 				background : navy;
 				
 				position : fixed;
-				left: 95%; top: 0; bottom: 0;
+				left: 98%; top: 0; bottom: 0;
 				width: 50px;
+			}
+			p.ellipsis, h2.ellipsis{width:300px;}
+			.ellipsis{
+				white-space:nowrap;
+				overflow: hidden;
+				text-overflow:ellipsis
 			}
 		</style>
 	</head>
@@ -147,12 +153,16 @@
 		<h1>예제 6) 고정 위치를 사용해 바 생성</h1>
 		<div class="top_bar"></div>
 		<div class="left_bar"></div>
-		<div class="container2"></div>
+		<div class="container2">
 			<p>위하여, 불러 때에, 이상, 그들의 피는 힘있다.</p>
 			<p>동산에는 미묘한 품에 끓는 끓는다. 위하여, 트고, 할지니,</p>
 			<p>아니더면, 가는 인생에 원질이 이상 장식하는 사막이다.</p>
 			<p>구하기 청춘은 커다란 군영과 있는가? 간에 청춘의 위하여서, 소금이라 힘있다.</p>
-			
+		</div>
+		
+		<h1>예제 7) 글자 생략</h1>
+		<h2 class="ellipsis">갑 되는 장식하는 끓는다. 밥을 낙원을 인생에 남는 어디 거친 보이는 품고 예수는 황금시대다. 실현에 뜨거운지라, 원대하고, 예가 새가 있는 두기 반짝이는 있는 것이다.</h2>
+		<p class="ellipsis">갑 되는 장식하는 끓는다. 밥을 낙원을 인생에 남는 어디 거친 보이는 품고 예수는 황금시대다. 실현에 뜨거운지라, 원대하고, 예가 새가 있는 두기 반짝이는 있는 것이다.</p>
 		
 	</body>
 </html>

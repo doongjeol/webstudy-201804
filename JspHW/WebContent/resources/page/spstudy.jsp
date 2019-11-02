@@ -63,6 +63,7 @@
              <h6 class="list-group-item list-group-item-action " target="contentCenter" >Ex04 <a class="text-secondary" href="../../exam_sp/exam04_css3selector/css3selector.jsp" target="contentCenter">css3 선택자</a></h6>
              <h6 class="list-group-item list-group-item-action list-group-item-dark " target="contentCenter" >Ex05 <a class="text-secondary" href="../../exam_sp/exam05_cssattribute/cssattribute.jsp" target="contentCenter">css3 속성</a></h6>
              <h6 class="list-group-item list-group-item-action " target="contentCenter" >Ex06 <a class="text-secondary" href="../../exam_sp/exam06_css3layout/css3layout.jsp" target="contentCenter">css3 응용과 레이아웃 </a></h6>
+             <h6 class="list-group-item list-group-item-action list-group-item-dark " target="contentCenter" >Ex07 <a class="text-secondary" href="../../exam_sp/exam07_responsiveweb/responsiveweb.jsp" target="contentCenter">css3 속성</a></h6>
           </div>
              <iframe name="contentCenter" style="width: 80%; height: 800px; border-width: 0px;">
              </iframe>
