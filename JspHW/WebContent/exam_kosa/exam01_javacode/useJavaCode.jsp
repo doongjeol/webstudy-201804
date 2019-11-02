@@ -23,14 +23,23 @@
 		<div>
 			<%-- Scriptlet --%>
 			<%
-			Calendar calendar = Calendar.getInstance();
+			String nation = "Pacific/Honolul"; //Asia/Seoul
+			TimeZone time = TimeZone.getTimeZone(nation);
+	        Date date1 = new Date();
+	        String datestr = date1.toString();
+
+			Calendar calendar = Calendar.getInstance(time);
 			int year = calendar.get(Calendar.YEAR);
-			int month = calendar.get(Calendar.MONTH + 1);
+			int month = calendar.get(Calendar.MONTH) + 1;
 			int date = calendar.get(Calendar.DAY_OF_MONTH);
+			int hour = calendar.get(Calendar.HOUR);
+			int minute = calendar.get(Calendar.MINUTE);
 			%>
 			
 			<%-- 표현식(expressions) --%>
-			<%=year%>년 <%=month%>월 <%=date%>일
+			<%=year%>년 <%=month%>월 <%=date%>일</br> 
+			국가 : <%=nation %>
+			<%=hour %>시 <%=minute %>분
 		</div>
 	</body>
 </html>
